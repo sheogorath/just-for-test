@@ -42,3 +42,4 @@ def dow(day, month, year):
 if __name__ == "__main__":
     d, m, y = (int(i) for i in input().split('.'))
     print(dow(d, m, y))
+    print("test")
